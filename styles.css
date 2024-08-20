@@ -4,18 +4,19 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  font-size: 18px; /* Increased the base font size */
 }
 
 header {
   background-color: #333;
   color: #fff;
-  padding: 10px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.5em; /* Increased the header font size */
 }
 
 nav ul {
@@ -32,7 +33,7 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1.2em; /* Slightly increased font size for navigation */
 }
 
 main {
@@ -41,16 +42,18 @@ main {
 }
 
 section {
-  max-width: 800px; /* Limits the width of the section */
-  margin: 0 auto; /* Centers the section on the page */
-  padding: 20px; /* Adds padding around the text */
-  text-align: left; /* Aligns text to the left */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
 }
 
 .profile-photo {
-  width: 30%; /* Adjusts the width to about a third of the page */
-  height: auto; /* Maintains the aspect ratio */
+  width: 40%; /* Made the image larger */
+  height: auto;
   border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px; /* Centered the image and added some margin below it */
 }
 
 footer {
